@@ -1,0 +1,92 @@
+.header h1{
+           font-size: 48px;
+           color: white;
+           margin: 10px;
+           padding: 10px;
+}
+.header p {
+           color: white;
+}
+.navbar ul li a{
+                  margin: 20px;
+
+}
+.task2 button{
+                 width: 30%;
+                 padding: 5px;
+
+}
+.service img{
+               margin: 60px;
+               margin-left: 130px;
+               display: flex;
+               align-items: center;
+}
+.company button{
+                 border-radius: 10px;
+}
+.company button:hover{
+                           background-color: turquoise;
+}
+.work img{
+      background-color: turquoise;
+      -border: 1px solid black;
+      border-radius: 100%;
+      padding: 8px;
+}
+.work  span{
+                  margin-left: 50px;
+}
+.work h3{
+    margin-left: 120px;
+    font-weight: 700;
+}
+.footer h3{
+               color: white;
+}
+.footer ul li {
+                      list-style: none;
+                      color: white;
+}
+.footer p {
+                color: white;
+}
+.footer input{
+                    width: 100%;
+                    border-radius: 5px;
+}
+.footer input:hover{
+                        background-color: antiquewhite;
+                        cursor: pointer;
+}
+.footer i{
+            color: white;
+            font-size: 25px;
+            margin: 10px;
+            cursor: pointer;
+}
+.footer span {
+            color: white;
+            margin-left: 25px;
+            cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .service img      {
+                           -margin-left: 200px;       
+                       }
+                       .work img {
+                                   text-align: center;
+                       }
+                       .task2 img{
+                                        width: 100%;
+                       }
+                       .service img{
+                                     display: flex;
+                                     align-items: center;
+                                     justify-content: center;
+                                     -border: 1px solid black;
+                                     -max-width: 80%;
+                       }
+}
+
